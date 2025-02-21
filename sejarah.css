@@ -1,0 +1,117 @@
+*{
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #016d95;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://source.unsplash.com/1600x400/?technology,industry');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.Infografis img {
+    width: 22%; /* Mengatur lebar gambar menjadi 20px */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-left: 4%;
+}
+.industri2 img {
+    width: 22%; /* Mengatur lebar gambar menjadi 20px */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-left: 27%;
+   position: absolute;
+    margin-top: -22%;
+}
+
+.industri3 img {
+    width: 22%; /* Mengatur lebar gambar menjadi 20px */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-left: 51%;
+   position: absolute;
+    margin-top: -22%;
+}
+
+.industri4 img {
+    width: 22%; /* Mengatur lebar gambar menjadi 20px */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-left: 74%;
+   position: absolute;
+    margin-top: -22%;
+}
+article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #000000;
+}
+
+.quote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #000000;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #016d95;
+    color: #ffffff;
+}
+.button {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 20px 0px ;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 1px solid;
+    padding: 8px 20px;
+    box-shadow: 3px 6px pink;
+    font-family: sans-serif;
+    margin: 100px;
+    align-items: center;
+}

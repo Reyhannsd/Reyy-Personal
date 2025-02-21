@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.sequence-calculator {
+    display: flex;
+    gap: 20px;
+}
+
+.sequence-calculator > div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    transition: box-shadow 0.3s ease-in-out;
+    color: #333;
+}
+
+.sequence-calculator > div:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    background-color: #ff4b2b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff1c1c;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
